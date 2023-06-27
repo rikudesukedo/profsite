@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+/*base style*/
+body{
+  font-family: 'NoTo Sans JP',"Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #333;
+}
+
+header{
+  width: 100%;
+  min-width: 1000px;
+  background-color: black;
+  margin: 0;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  opacity: 0.7;
+}
+.header-box{
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-text{
+  font-size: 20px;
+  color: white;
+  margin-left: 0em;
+  font-weight: bold;
+}
+
+
+
+
+.section{
+  padding: 150px 15px 30px ;
+}
+.section.section-secondary{
+  background-color: #efefef;
+}
+.section-headline{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0 0 50px 0;
+}
+
+.about{
+  margin-left: 200px;
+  display: flex;
+}
+
+.about-image{
+  width: 600px;
+  height: 600px;
+}
+
+.about-caption{
+  padding-left: 40px;
+}
+
+.about-headline{
+  margin: 0 0 20px;
+}
+
+.about-description{
+  font-size: 30px;
+}
+.image-introduce{
+  font-size: 20px;
+  margin-left: 200px;
+}
+
+.want-list{
+  font-size: 30px;
+  margin-left: 400px;
+}
+
+li{
+  padding-bottom: 5px;
+}
